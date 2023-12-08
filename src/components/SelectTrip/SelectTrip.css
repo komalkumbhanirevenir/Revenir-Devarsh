@@ -1,0 +1,28 @@
+.trip-label {
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+.flag-img {
+    display: flex !important;
+    margin-top: 30px !important;
+}
+
+.trip-title {
+    font-size: 1.6rem !important;
+    color: #4f38d6 !important;
+    margin-top: 30px !important;
+    font-weight: 600 !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+
+}
+
+.trip-description {
+    margin: 16px 0 !important;
+    color: #4f38d6 !important;
+    font-weight: bold !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+
+}

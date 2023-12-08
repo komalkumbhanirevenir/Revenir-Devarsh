@@ -1,0 +1,26 @@
+.travelinfo-label {
+    font-size: 18px !important;
+    color: #4f38d6 !important;
+    font-weight: bold !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+
+}
+
+.travelinfo-body {
+    overflow-x: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 30px !important;
+    margin-top: 10% !important;
+
+}
+
+.travelinfo-textfield {
+    margin-top: 0 !important;
+    border-radius: 10px !important;
+    border: 0.1px solid #4f38d6 !important;
+    height: 50px !important;
+
+}

@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+/* fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+
+label {
+    color: #4f38d6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-container {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Onboarding Module Start*/
+
+.onboarding-section {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 90vh;
+    
+    @media only screen and (min-width: 600px) and (max-width: 1024px) {
+        width: 600px;
+        
+    }
 }
 
-.App-link {
-  color: #61dafb;
+.btn-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    gap: 15px; 
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.onboarding-stepper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
 }
+
+
+/* Onboarding Module End */
+
+/* Create Trip module start */
+.trip-stepper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* create trip module end */
+
+
+/* Reclaim Rules Start*/
+.rules-main {
+    display: flex !important;
+    width: 100% !important;
+    justify-content: space-between !important;
+    margin-bottom: 25px !important;
+
+}
+
+.rules-main>img {
+    width: 10%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.rules-stepper {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+    margin-top: 10px !important;
+
+}
+
+/* Reclaim Rules End*/

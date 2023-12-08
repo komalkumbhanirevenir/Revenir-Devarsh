@@ -1,0 +1,48 @@
+.common-label {
+    font-size: 1.3rem !important;
+    font-weight: bold !important;
+
+    @media only screen and (min-width: 600px) and (max-width: 1024px) {
+        font-size: 2rem !important;
+        font-weight: bold !important;
+    }
+}
+
+.common-title {
+    font-size: 1.6rem !important;
+    color: #4f38d6 !important;
+    margin-top: 30px !important;
+    font-weight: 600 !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+
+    @media only screen and (min-width: 600px) and (max-width: 1024px) {
+        font-size: 1.8rem !important;   
+    }
+
+}
+
+.common-description {
+    margin: 16px 0 !important;
+    color: #4f38d6 !important;
+    font-weight: bold !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+
+}
+
+.common-img {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+}
+
+.common-img>img {
+    max-height: 250px;
+    width: fit-content;
+
+    @media only screen and (min-width: 600px) and (max-width: 1024px) {
+     max-height: 320px;   
+    }
+}

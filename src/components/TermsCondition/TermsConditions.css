@@ -1,0 +1,29 @@
+.tnc-main {
+    overflow-x: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+}
+
+.tnc-main>h1 {
+    color: #4f38d6 !important;
+    font-size: 1.6rem !important;
+    font-weight: bold !important;
+    @media only screen and (min-width: 600px) and (max-width: 1024px){
+        font-weight: bold !important;
+        font-size: 2rem !important;
+    }
+}
+
+.tnc-main>div {
+    max-height: 60vh !important;
+    overflow-y: auto !important;
+}
+
+.tnc-content {
+    padding: 1em !important;
+    display: block !important;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}

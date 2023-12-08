@@ -1,0 +1,110 @@
+.triplist-main {
+    background: var(--Navy--Gredient, linear-gradient(153deg, #0A0E31 14.49%, #040511 80.82%)) !important;
+    position: relative !important;
+    height: calc(100vh - 17.25rem) !important;
+
+}
+
+.bg-circle {
+    position: absolute !important;
+    top: 30% !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+
+}
+
+.tax-img {
+    position: absolute !important;
+    top: 35% !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+
+}
+
+.reclaim-label {
+    position: absolute !important;
+    top: 70% !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+    color: #FFF !important;
+    text-align: center !important;
+    font-family: 'DM Sans' !important;
+    font-size: 24px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: normal !important;
+    width: 70% !important;
+
+}
+
+.triplist-body {
+    display: flex !important;
+    flex-direction: column !important;
+    color: white !important;
+    padding: 1rem !important;
+    gap: 1rem !important;
+    margin-top: -1.875rem !important;
+
+}
+
+.tripshopping-icon {
+    background: rgba(255, 255, 255, .05) !important;
+    padding: 0.5rem !important;
+    border-radius: 100% !important;
+    width: 50px !important;
+    height: 50px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+
+}
+
+.body-container {
+    display: grid !important;
+    width: 100% !important;
+    grid-template-columns: auto 1fr auto !important;
+    gap: 1rem !important;
+    align-items: center !important;
+
+}
+
+.trip-details {
+    color: var(--White, #FFF) !important;
+    font-family: 'DM Sans' !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
+    letter-spacing: -0.18px !important;
+
+}
+
+.trip-status {
+    color: #E66D60 !important;
+    font-family: 'DM Sans' !important;
+    font-size: 13px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 16px !important;
+    letter-spacing: -0.065px !important;
+
+}
+
+.black-footer {
+    background: var(--Navy_Dark, #040511);
+    color: white;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: -webkit-fill-available !important;
+}
+
+.footer-content {
+    display: flex !important;
+    justify-content: space-around !important;
+}

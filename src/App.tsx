@@ -1,25 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Onboarding from './module/OnBoarding';
+import ReclaimRules from './module/ReclaimRules';
+import TripTransaction from './components/TripTransaction/TripTransaction';
+import Trip from './module/CreateTrip';
+import TransactionOption from './components/TransactionOption/TransactionOption';
+import TransactionFeed from './components/TransactionFeed/TransactionFeed';
+import Barcode from './components/Barcodes/Barcode';
+import TripList from './components/TripList/TripList';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Onboarding />
+    // <Trip />
+    // <ReclaimRules />
+    // <TripTransaction />
+    // <TransactionOption />
+    // <TransactionFeed />
+    // <Barcode />
   );
 }
 

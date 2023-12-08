@@ -1,0 +1,33 @@
+.ticketinfo-label {
+    margin-top: 20% !important;
+    font-size: 18px !important;
+    color: #4f38d6 !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+
+}
+
+.ticketinfo-body {
+    overflow-x: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 30px !important;
+    margin-top: 10% !important;
+
+}
+
+.ticketinfo-textfield {
+    margin-top: 0 !important;
+    border-radius: 10px !important;
+    border: 0.1px solid #4f38d6 !important;
+    height: 50px !important;
+
+}
+
+.btn-body {
+    display: flex;
+    margin-Top: 30%;
+}

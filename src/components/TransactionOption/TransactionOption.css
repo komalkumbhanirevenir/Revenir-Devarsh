@@ -1,0 +1,150 @@
+.bg-image {
+    display: block;
+    object-fit: cover;
+    width: -webkit-fill-available !important;
+    height: 30%;
+}
+
+.back-btn {
+    position: absolute !important;
+    top: 3rem !important;
+    left: 1rem !important;
+    right: 0 !important;
+
+}
+
+.back-icon {
+    position: absolute !important;
+    top: 12px !important;
+    left: 12px !important;
+
+}
+
+.transactionoption-main {
+    background: var(--Navy--Gredient, linear-gradient(153deg, #0A0E31 14.49%, #040511 80.82%)) !important;
+    position: relative !important;
+    height: calc(100vh - 17.1rem) !important;
+}
+
+.transactionDetails {
+    position: relative !important;
+    top: -36px !important;
+
+}
+
+.shopping-icon {
+    width: 64px !important;
+    height: 64px !important;
+    border-radius: 40px !important;
+    background: var(--White, #FFF) !important;
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: auto !important;
+    top: -2.1rem !important;
+
+}
+
+.transaction-name {
+    position: absolute !important;
+    top: 30% !important;
+    left: 0 !important;
+    right: 0 !important;
+
+}
+
+.transaction-name>.label {
+    position: absolute !important;
+    top: 30% !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+    color: var(--White, #FFF) !important;
+    width: 198px !important;
+    text-align: center !important;
+    font-family: 'DM Sans' !important;
+    font-size: 20px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 26px !important;
+
+}
+
+.transaction-price {
+    position: absolute !important;
+    top: 60% !important;
+    left: 0 !important;
+    right: 0 !important;
+
+}
+
+.transaction-price>.label {
+    position: absolute !important;
+    top: 30% !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+    color: var(--White, #FFF) !important;
+    width: 198px !important;
+    text-align: center !important;
+    font-family: 'DM Sans' !important;
+    font-size: 32px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 48px !important;
+
+}
+
+.transactionoption-body {
+    display: flex !important;
+    flex-direction: column !important;
+    color: white !important;
+    padding: 1rem !important;
+    gap: 0.25rem !important;
+    margin-top: -1.875rem !important;
+
+}
+
+.transactionoption-list {
+    display: grid !important;
+    width: 100% !important;
+    grid-template-columns: auto 1fr auto !important;
+    gap: 1rem !important;
+    align-items: center !important;
+
+}
+
+.transactionoption-icon {
+    background: rgba(255, 255, 255, .05) !important;
+    padding: 0.5rem !important;
+    border-radius: 100% !important;
+    width: 50px !important;
+    height: 50px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+
+}
+
+.transactionoption-label {
+    font-family: 'DM Sans' !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
+    letter-spacing: -1% !important;
+
+}
+
+.transactionoption-info {
+    opacity: 0.5 !important;
+    color: var(--White, #FFF) !important;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    font-family: 'DM Sans' !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 16px !important;
+    letter-spacing: -0.065px !important;
+    font-style: normal !important;
+
+}

@@ -1,0 +1,155 @@
+.black-footer {
+    background: var(--Navy_Dark, #040511);
+    color: white;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: -webkit-fill-available !important;
+}
+
+.footer-content {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.transactionfeed-main {
+    background: var(--Navy--Gredient, linear-gradient(153deg, #0A0E31 14.49%, #040511 80.82%)) !important;
+    position: relative !important;
+    height: calc(100vh - 5rem) !important;
+
+}
+
+.bg-gradient {
+    height: 332px !important;
+    border-radius: 0px 0px 36px 36px !important;
+    background: linear-gradient(118deg, #8521D4 0%, #E890D9 100%) !important;
+
+}
+
+.backarrow {
+    padding: 1rem 0.5rem 0rem 0.5rem !important;
+}
+
+.backarrow-icon {
+    background: var(--Navy, #0A0E31) !important;
+    opacity: 0.25 !important;
+    padding: 0.5rem !important;
+    border-radius: 100% !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+
+}
+
+.visacard-img {
+    position: absolute !important;
+    top: 11.5rem !important;
+    left: 0.3rem !important;
+
+}
+
+.mastercard-img {
+    position: absolute !important;
+    top: 8rem !important;
+
+}
+
+.transactionfeed-label {
+    opacity: 0.7 !important;
+    color: var(--White, #FFF) !important;
+    text-align: center !important;
+    font-family: 'DM Sans' !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+    width: 175px !important;
+    letter-spacing: -0.08px !important;
+    margin-top: 3rem !important;
+
+}
+
+.transactionfeed-body {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+
+}
+
+.trasactionfeed-list {
+    display: flex !important;
+    margin: 0px 20px 0px 20px !important;
+    gap: 1rem !important;
+    align-items: center !important;
+
+}
+
+.company-icon {
+    position: relative !important;
+    width: 15% !important;
+    height: 40px !important;
+    border-radius: 8px !important;
+    background: var(--BG, #E9E9E9) !important;
+
+}
+
+.company-icon>img {
+    position: absolute !important;
+    top: 7px !important;
+    left: 10px !important;
+
+}
+
+.transactionfeed-info {
+    width: 55% !important;
+    display: flex !important;
+    flex-direction: column !important;
+
+}
+
+.transaction-name {
+    color: var(--White, #FFF) !important;
+    font-family: 'DM Sans' !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
+    letter-spacing: -0.18px !important;
+
+}
+
+.transaction-type {
+    color: var(--White, #FFF) !important;
+    font-family: 'DM Sans' !important;
+    font-size: 13px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 16px !important;
+    letter-spacing: -0.065px !important;
+    opacity: 0.5 !important;
+
+}
+
+.transaction-amount {
+    width: 30% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: end !important;
+
+}
+
+.amount-details {
+    color: var(--White, #FFF) !important;
+    font-family: 'DM Sans' !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
+    letter-spacing: -0.18px !important;
+
+}
